@@ -564,7 +564,7 @@ color: var(--main-color-alt);
     border-radius: 6px;
     overflow: hidden;
     transition: transform var(--main-transition), box-shadow var(--main-transition);
-    border: white 10px solid;
+    border: white 1px solid;
 }
 .ai-app .box:hover {
     transform: translateY(-10px);
@@ -669,7 +669,7 @@ color: var(--main-color-alt);
     border: 1px solid black;
     background-color: black;
     color: white;
-    border: white 10px solid;
+    border: white 1px solid;
   }
   .features .box .img-holder {
     position: relative;
