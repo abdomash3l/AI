@@ -349,7 +349,7 @@ color: var(--main-color-alt);
   width: 100%;
   left: 0;
   padding: 30px;
-  background-color: white;
+  background-color: black;
   border-bottom: 3px solid var(--main-color);
   z-index: -1; /* القيمة الافتراضية */
   display: flex;
@@ -357,7 +357,9 @@ color: var(--main-color-alt);
   top: calc(100% + 50px);
   opacity: 0;
   transition: top 0.3s ease, opacity 0.3s ease, z-index 0.3s ease;
+  display: none;
 }
+
 
 /* عند النقر، يتم تفعيل الـ mega-menu */
 .header .menu-item.active .mega-menu {
