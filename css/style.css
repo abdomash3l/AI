@@ -510,6 +510,7 @@ color: var(--main-color-alt);
   left: 50%;
   transform: translateX(-50%);
   transition: var(--main-transition);
+      z-index: 1000;
 }
 .landing .go-down:hover {
   color: var(--main-color-alt);
